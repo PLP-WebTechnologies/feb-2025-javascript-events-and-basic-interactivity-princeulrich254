@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Event Handling & Interactive Elements</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Welcome to the JavaScript Playground!</h1>
+
+    <!-- Button Section -->
+    <button id="clickButton">Click Me</button>
+
+    <!-- Hover Effect Example -->
+    <p id="hoverText">Hover over me!</p>
+
+    <!-- Keypress Detection -->
+    <p>Press any key, and it will be logged here: <span id="keyPressLog"></span></p>
+
+    <!-- Image Gallery -->
+    <div id="gallery">
+        <img src="image1.jpg" alt="Image 1" id="currentImage">
+        <button id="prev">Prev</button>
+        <button id="next">Next</button>
+    </div>
+
+    <!-- Tabs Section -->
+    <div class="tabs">
+        <button class="tabButton" data-target="tab1">Tab 1</button>
+        <button class="tabButton" data-target="tab2">Tab 2</button>
+        <button class="tabButton" data-target="tab3">Tab 3</button>
+    </div>
+
+    <div id="tab1" class="tabContent">Content for Tab 1</div>
+    <div id="tab2" class="tabContent">Content for Tab 2</div>
+    <div id="tab3" class="tabContent">Content for Tab 3</div>
+
+    <!-- Form Section -->
+    <form id="myForm">
+        <label for="email">Email: </label>
+        <input type="email" id="email" required placeholder="Enter your email">
+        <br>
+        <label for="password">Password: </label>
+        <input type="password" id="password" required placeholder="Enter your password">
+        <span id="passwordFeedback"></span>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
